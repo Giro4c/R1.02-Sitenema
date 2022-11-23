@@ -1,0 +1,14 @@
+Thème choisi :
+Cinema
+
+Les films qui vont sortir (page Les prochaines arrivées attendues)
+  avec les bandes d'annonces (liens par youtube)
+Les cinémas atour du département (adresse, photo, horaires d'ouverture)
+Les films qui ont marqué le monde
+Une page menu random (Le vrac) avec pages sur thème aucun rapport avec thème choisi
+
+//Aeronautique
+//Bitcoin
+//Galerie lafayette
+//Genshin Impact
+//Anime
