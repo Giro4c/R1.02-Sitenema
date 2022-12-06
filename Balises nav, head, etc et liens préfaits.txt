@@ -1,3 +1,12 @@
+Palette de couleur:
+#F2E2D2 Almond
+#BCC1BA Ash Grey
+#9FB7B9 Opal
+#84C0C6 Middle Blue
+#46B1C9 Pacific Blue
+#97ccd8 Autre bleu clair pale
+
+
 <nav>
     <p>Menu :</p>
     <ul>

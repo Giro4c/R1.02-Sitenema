@@ -1,0 +1,20 @@
+/* Pour header */
+header {
+    color: black;
+    background-color: #97ccd8;
+    font-weight: bold;
+    margin: 0px;
+    height: 100px;
+    font-size: 75px;
+}
+
+/* Pour nav / menu */
+nav {
+    background-color: #BCC1BA;
+    width: 220px ;
+}
+
+/* Pour body */
+body {
+    background-color: #F2E2D2;
+}
