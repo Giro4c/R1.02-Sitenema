@@ -1,16 +1,21 @@
-.video1 {
+.video {
    position: absolute;
-   top: 0;
-   right: 0;
+   margin-left: 300px;
 }
 
 .video1 iframe{
-    width: 100%;
-    height: 100%;
+    top: 30;
+    width: 300px;
+    height: 200px;
+}
+.video2 iframe {
+    top: 80;
+    width: 300px;
+    height: 200px;
 }
 
 .TextVideo1 {
     position: absolute;
-    background: none;
-    right: 50;
+    top: 30;
+    margin-left: 600px;
 }
