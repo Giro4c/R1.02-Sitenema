@@ -77,17 +77,20 @@ Cr Maréchal Foch, 13400 Aubagne
 http://www.cinema-lepagnol.fr/
 
 Les 3 palmes
-    2 Rue Léon Bancal, 13011 Marseille
-    13:00 --> 22:30 lundi/vendredi    13:00 --> 00:30 samedi    11:00 --> 22:30 dimanche
-    http://www.les3palmes.com/
+2 Rue Léon Bancal, 13011 Marseille
+13:00 --> 22:30 lundi/vendredi    13:00 --> 00:30 samedi    11:00 --> 22:30 dimanche
+http://www.les3palmes.com/
+
 cinema multiplex le palace
-    ZAC des Plaines de Figuerolles, 13500 Martigues
-    9:30 --> 12:00 / 13:00 --> 16:30 lundi/vendredi
-    http://www.cinema-lepalace.com/
+ZAC des Plaines de Figuerolles, 13500 Martigues
+9:30 --> 12:00 / 13:00 --> 16:30 lundi/vendredi
+http://www.cinema-lepalace.com/
+
 cinema le femina
-    58 Cr Gambetta, 84300 Cavaillon
-    Horaires variables. Cliquez ici pour accéder aux dates des prochaines séances (http://cinemasdecavaillon.fr/FR/43/horaires-cinema-cigale-femina-cavaillon.html)
-    http://cinemasdecavaillon.fr/
+58 Cr Gambetta, 84300 Cavaillon
+Horaires variables. Cliquez ici pour accéder aux dates des prochaines séances (http://cinemasdecavaillon.fr/FR/43/horaires-cinema-cigale-femina-cavaillon.html)
+http://cinemasdecavaillon.fr/
+
 pathé toulon
 pathé la valette
 chateau de la buzine

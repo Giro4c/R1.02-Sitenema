@@ -4,6 +4,8 @@ Date limite de rendu : 18 décembre 23h59
 Thème : 
 Aaaa  
 
+Idee pour formulaire : Mettre un lien dans page principale, "Pour nous aider à améliorer le site" avec lien vers formulaire
+
 Consigne :  
   
 Au minimum tous les points suivants doivent être respectés :  
