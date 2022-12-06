@@ -91,6 +91,14 @@ cinema le femina
 Horaires variables. Cliquez ici pour accéder aux dates des prochaines séances (http://cinemasdecavaillon.fr/FR/43/horaires-cinema-cigale-femina-cavaillon.html)
 http://cinemasdecavaillon.fr/
 
+
+
+
+
+
+
+
+
 pathé toulon
 pathé la valette
 chateau de la buzine

@@ -1,3 +1,11 @@
 .video1 {
-    
+   position: absolute;
+   background: lime;
+   right: 20;
+}
+
+.TextVideo1 {
+    position: absolute;
+    background: none;
+    right: 20;
 }
