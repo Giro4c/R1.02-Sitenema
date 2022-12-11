@@ -10,6 +10,7 @@ header {
 
 header p{
     margin: 0;
+    padding-left: 100px;
 }
 
 /* Pour nav / menu */
@@ -24,3 +25,42 @@ body {
     background-color: #F2E2D2;
     margin: 0;
 }
+
+/* La flexbox pour le contenu en dessous du header */
+.container-fluid {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: stretch;    
+}
+
+.container-fluid > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+
+.reste {
+    flex-basis: 70%;
+}
+
+.menu {
+    flex-basis: 30%;
+    padding-top: 0;
+}
+/* Fin flexbox */
+
+/* Flexbox dans nav --> liste des pages */
+.ls_pages {
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;    
+}
+
+.ls_pages > * {
+    margin: 0;
+    padding: 5px;
+    flex: 1 100%;
+}
+/* Fin flexbox */
+
