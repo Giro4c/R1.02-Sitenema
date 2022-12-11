@@ -20,6 +20,16 @@ nav {
     width: 220px ;
 }
 
+/* Pour footer */
+footer {
+    background-color: #97ccd8;
+    height: 30px;
+    padding: 5px 0;
+}
+footer p {
+    margin: 0;
+}
+
 /* Pour body */
 body {
     background-color: #F2E2D2;
