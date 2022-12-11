@@ -64,3 +64,6 @@ body {
 }
 /* Fin flexbox */
 
+section img {
+    width: 150px;
+}
