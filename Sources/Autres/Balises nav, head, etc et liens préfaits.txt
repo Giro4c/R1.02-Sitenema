@@ -6,7 +6,6 @@ Palette de couleur:
 #46B1C9 Pacific Blue
 #97ccd8 Autre bleu clair pale
 
-
  <header>
         <!-- <img src="" alt=""> -->
         <p>Sitenéma</p>
@@ -16,10 +15,10 @@ Palette de couleur:
     <nav class="menu">
         <p><b>Menu :</b></p>
         <ul class="ls_pages">
-            <li><a href="index.html" title="Lien vers la page d'acceuil">Page d'acceuil</a></li>
-            <li><a href="Sources/Index/index_cine.html" title="Lien vers la page des cinés autour d'Aix">Les cinémas autour d'Aix</a></li>
-            <li><a href="Sources/Index/index_filmsortie.html" title="Lien vers la page des films sortis">Les sorties récentes</a></li>
-            <li><a href="Sources/Index/index_filmpassortie.html" title="Lien vers la page des films prochainement">Les prochaines sorties</a></li>
+            <li><a href="../../index.html" title="Lien vers la page d'acceuil">Page d'acceuil</a></li>
+            <li><a href="index_cine.html" title="Lien vers la page des cinés autour d'Aix">Les cinémas autour d'Aix</a></li>
+            <li><a href="index_filmsortie.html" title="Lien vers la page des films sortis">Les sorties récentes</a></li>
+            <li><a href="index_filmpassortie.html" title="Lien vers la page des films prochainement">Les prochaines sorties</a></li>
         </ul>
     </nav>    
     
@@ -31,7 +30,7 @@ Palette de couleur:
 <head>
     <title>  </title>
     <meta charset="utf-8"/>
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <!-- <link rel="stylesheet" href="../../css/style.css"> -->
 </head>
 
 <img src="" alt="">
