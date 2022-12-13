@@ -22,11 +22,16 @@ nav {
 
 /* Pour footer */
 footer {
+    display:flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+    align-items: baseline;        
     background-color: #97ccd8;
     height: 30px;
     padding: 5px 0;
 }
-footer p {
+footer > * {
+    flex: 1 100%;
     margin: 0;
 }
 
@@ -52,7 +57,6 @@ body {
 .reste {
     flex-basis: 70%;
 }
-
 .menu {
     flex-basis: 30%;
     padding-top: 0;
