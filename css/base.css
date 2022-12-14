@@ -53,6 +53,10 @@ body {
     text-align: right;
 }
 
+section > ul > li > ul > * {
+    marker: none;
+}
+
 /* La flexbox pour le contenu en dessous du header */
 .container-fluid {
     display:flex;
