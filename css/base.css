@@ -17,7 +17,6 @@ header p{
 nav {
     margin: 5px;
     background-color: #BCC1BA;
-    width: 220px ;
 }
 
 /* Pour footer */
@@ -35,10 +34,21 @@ footer > * {
     margin: 0;
 }
 
+/*Pour h1 */
+h1 {
+    font-size: 50px;
+    margin: 0 0 30px 0;
+}
+
 /* Pour body */
 body {
     background-color: #F2E2D2;
     margin: 0;
+}
+
+/* Pour ancrage retour en haut */
+.retour_haut {
+    margin: 0 0 10px 0;
 }
 
 /* La flexbox pour le contenu en dessous du header */
@@ -49,17 +59,18 @@ body {
     align-items: stretch;    
 }
 
-.container-fluid > * {
+.container-fluid > section {
     padding: 10px;
-    flex: 1 100%;
+    flex: 1 70%;
+}
+.container-fluid > nav {
+    padding: 0px 10px 10px 10px;
+    flex: 1 30%;
 }
 
-.reste {
-    flex-basis: 70%;
-}
-.menu {
-    flex-basis: 30%;
-    padding-top: 0;
+nav p {
+    margin: 5px;
+    
 }
 /* Fin flexbox */
 
@@ -68,7 +79,10 @@ body {
     display:flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
-    align-items: flex-start;    
+    align-items: flex-start;
+
+    padding-left: 20px;
+    margin: 5px 0px;
 }
 
 .ls_pages > * {
