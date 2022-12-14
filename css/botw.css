@@ -1,0 +1,14 @@
+h2, h3 {
+    margin-bottom: 0;
+}
+
+table {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #46B1C9;
+
+}
+
+.présentation-mob {
+    margin: 0;
+}

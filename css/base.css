@@ -49,6 +49,8 @@ body {
 /* Pour ancrage retour en haut */
 .retour_haut {
     margin: 0 0 10px 0;
+    font-size: 10px;
+    text-align: right;
 }
 
 /* La flexbox pour le contenu en dessous du header */
@@ -91,7 +93,3 @@ nav p {
     flex: 1 100%;
 }
 /* Fin flexbox */
-
-section img {
-    width: 150px;
-}
