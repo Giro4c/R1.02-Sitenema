@@ -1,0 +1,63 @@
+<!DOCTYPE html> <!-- formulaire -->
+<html lang="fr">
+
+<head>
+    <title>Formulaire</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/image.css">
+    <link rel="stylesheet" href="../../css/botw.css">
+
+</head>
+
+<body>
+    <header id="haut_page">
+        <!-- <img src="" alt=""> -->
+        <p>Sitenéma</p>
+    </header>
+
+    <section class="container-fluid">
+        <nav>
+            <p><b><a href="../../index.html" title="Lien vers la page d'acceuil">Page d'acceuil</a></b></p>
+            <p>Menu Ciné :</p>
+            <ul class="ls_pages">
+                <li><a href="index_cine.html" title="Lien vers la page des cinés autour d'Aix">Les cinémas autour d'Aix</a></li>
+                <li><a href="index_filmsortie.html" title="Lien vers la page des films sortis">Les sorties récentes</a></li>
+                <li><a href="index_filmpassortie.html" title="Lien vers la page des films prochainement">Les prochaines sorties</a></li>
+            </ul>
+
+            <p>Bric-à-Brac :</p>
+            <ul class="ls_pages">
+                <li>
+                    Zelda : BOTW
+                    <ul class="ls_pages">
+                        <li><a href="index_botw-CM.html" title="Lien vers la page des monstres de Breath Of The Wild">Les monstres communs</a></li>
+                        <li><a href="index_botw-B.html" title="Lien vers la page BOTW de ">Les Boss</a></li>
+                    </ul>
+                </li>
+            </ul>
+       </nav>
+            
+        <section>
+            <p>
+                Voici un petit formulaire anonyme que vous pouvez remplir pour nous donner votre avis sur le site et nous aider à l'améliorer. Vous pouvez aussi nous proposer que créer de nouvelles pages ou nous donner des conseils sur l'esthétique du site.<br>
+                Toute critique est la bienvenue :D
+            </p>
+            <form id="form" action="mailto:camille.girodengo@etu.univ-amu.fr?content-type=text/html&amp;subject=Site%20Web%20Sitenema%20Formulaire" method="post" enctype="text/plain">
+                <p>
+                    <input id="sexeHomme" type="radio" name="sexe" value="homme"><label for="sexeHomme">Homme</label> 
+                    <input id="sexeFemme" type="radio" name="sexe" value="femme"><label for="sexeFemme">Femme</label>
+                    <input id="sexeAnon" type="radio" name="sexe" value="anonyme/non_spec"><label for="sexeAnon">Non Spécifié</label><br>
+                    <label for="impression">Vos impressions</label><br><textarea name="impression" rows="5" cols="50">Dites nous ce que vous pensez du site</textarea><br>
+                    <label for="checksurprise">Avez-vous cliqué sur la surprise de la page d'accueil ? </label><input id="checksurprise" type="checkbox"><br>
+                    <label for="conseil">Vos conseils</label><br><textarea name="conseil" rows="5" cols="50">Des conseils ou des améliorations ?</textarea><br>
+                    <input type="submit" value="Envoyer">
+                </p>
+            </form>
+        </section>
+    </section>
+    <footer>
+        <p>Sitenéma</p>
+        <p><a href="Sources/Index/index_formulaire.html" title="Lien vers le formulaire">Donnez-nous votre avis !</a></p>
+    </footer>
+</body>

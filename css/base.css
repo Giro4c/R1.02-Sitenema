@@ -10,13 +10,34 @@ header {
 
 header p{
     margin: 0;
+    padding-left: 100px;
 }
 
 /* Pour nav / menu */
 nav {
     margin: 5px;
     background-color: #BCC1BA;
-    width: 220px ;
+}
+
+/* Pour footer */
+footer {
+    display:flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+    align-items: baseline;        
+    background-color: #97ccd8;
+    height: 30px;
+    padding: 5px 0;
+}
+footer > * {
+    flex: 1 100%;
+    margin: 0;
+}
+
+/*Pour h1 */
+h1 {
+    font-size: 50px;
+    margin: 0 0 30px 0;
 }
 
 /* Pour body */
@@ -24,3 +45,55 @@ body {
     background-color: #F2E2D2;
     margin: 0;
 }
+
+/* Pour ancrage retour en haut */
+.retour_haut {
+    margin: 0 0 10px 0;
+    font-size: 10px;
+    text-align: right;
+}
+
+section > ul > li > ul > * {
+    marker: none;
+}
+
+/* La flexbox pour le contenu en dessous du header */
+.container-fluid {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: stretch;    
+}
+
+.container-fluid > section {
+    padding: 10px;
+    flex: 1 70%;
+}
+.container-fluid > nav {
+    padding: 0px 10px 10px 10px;
+    flex: 1 30%;
+}
+
+nav p {
+    margin: 5px;
+    
+}
+/* Fin flexbox */
+
+/* Flexbox dans nav --> liste des pages */
+.ls_pages {
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding-left: 20px;
+    margin: 5px 0px;
+}
+
+.ls_pages > * {
+    margin: 0;
+    padding: 5px;
+    flex: 1 100%;
+}
+/* Fin flexbox */
