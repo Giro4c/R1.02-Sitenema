@@ -1,17 +1,10 @@
-.video {
-   position: absolute;
-   margin-left: 200px;
-   top: 165px;
-}
 
-.video iframe{
+iframe{
     width: 200px;
     height: 100px;
     margin: 2%;
 }
 
-.TextVideo1 {
-    position: absolute;
-    top: 30;
-    margin-left: 415px;
+section > ul{
+    padding: 10px;
 }

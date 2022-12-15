@@ -6,9 +6,15 @@ table {
     border-style: dotted;
     border-width: 2px;
     border-color: #46B1C9;
-
 }
 
 .présentation-mob {
     margin: 0;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: stretch;    
+}
+.présentation-mob > * {
+    flex: 1 100%;
 }

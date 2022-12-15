@@ -78,13 +78,14 @@ section > ul > li > ul > * {
 .container > p {
     flex: 1 100%
 }
+/* Fin flexbox */
 
-/* La flexbox pour le contenu en dessous du header */
-.container-fluid {
+/* La flexbox pour le contenu en dessous du header + liste avec figure */
+.container-fluid , .list_flex-et-fig{
     display:flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
-    align-items: stretch;    
+    align-items: stretch;
 }
 
 .container-fluid > section {
@@ -95,10 +96,12 @@ section > ul > li > ul > * {
     padding: 0px 10px 10px 10px;
     flex: 1 30%;
 }
-
 nav p {
     margin: 5px;
-    
+}
+
+.list_flex-et-fig > * {
+    flex: 1 100%;
 }
 /* Fin flexbox */
 

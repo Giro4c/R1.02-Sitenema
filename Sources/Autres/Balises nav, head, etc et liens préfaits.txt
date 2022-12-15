@@ -6,10 +6,15 @@ Palette de couleur:
 #46B1C9 Pacific Blue
 #97ccd8 Autre bleu clair pale
 
- <header>
-        <!-- <img src="" alt=""> -->
-        <p>Sitenéma</p>
-</header>
+<body>
+    <header class="container">
+        <figure>
+            <img src="Sources/Autres/Images/logo site.png" alt=""> ou <img src="../Autres/Images/logo site.png" alt="">
+        </figure>
+        <p>
+            Sitenéma
+        </p>
+    </header>
 
 <section class="container-fluid">
     <nav>
