@@ -1,0 +1,18 @@
+Surprise de la page d'accueil
+
+changer les noms des index + dossiers
+    changer les paths
+
+Ajouter les nav, footer sur toutes les pages
+
+Ajouter la structure flexbox sur pages cinés de gavril
+
+Séparer base.css en 2 fichiers css : base_structure_squelette.css et base_structure_interne.css
+
+Faires les media queries pour telephone surtout
+
+Mettre logo dans header
+    Ajouter les header sur toutes les pages
+
+Créer logo pour symbole titre onglet
+

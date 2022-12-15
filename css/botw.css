@@ -12,10 +12,19 @@ table {
 .présentation-mob {
     margin: 0;
     display:flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: flex-start;
-    align-items: stretch;    
+    align-items: center;    
 }
-.présentation-mob > * {
+
+.présentation-mob img {
+    width: 100%;
+}
+.présentation-mob > p, .présentation-mob > .paragraphe {
+    margin: 5px;
+    padding: 0 5px;
+    flex: 1 calc(50% - 20px);
+}
+.présentation-mob > .audio-container {
     flex: 1 100%;
 }

@@ -119,3 +119,13 @@ nav p {
     flex: 1 100%;
 }
 /* Fin flexbox */
+
+.audio-container {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.audio-container > * {
+    flex: 1 30%;
+}
