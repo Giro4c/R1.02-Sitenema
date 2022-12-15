@@ -57,9 +57,6 @@ body {
     text-align: right;
 }
 
-section > ul > li > ul > * {
-    marker: none;
-}
 .text-right {
     text-align: right;
 }

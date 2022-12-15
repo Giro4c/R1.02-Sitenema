@@ -5,6 +5,10 @@ iframe{
     margin: 2%;
 }
 
+section img{
+    width: 100px;
+    height: 150px;
+}
 section > ul{
     padding: 10px;
 }
