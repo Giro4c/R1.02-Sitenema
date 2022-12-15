@@ -1,0 +1,59 @@
+Palette de couleur:
+#F2E2D2 Almond
+#BCC1BA Ash Grey
+#9FB7B9 Opal
+#84C0C6 Middle Blue
+#46B1C9 Pacific Blue
+#97ccd8 Autre bleu clair pale
+
+<body>
+    <header class="container">
+        <figure>
+            <img src="Sources/Autres/Images/botw/logo site.png" alt=""> ou <img src="../Autres/Images/botw/logo site.png" alt="">
+        </figure>
+        <p>
+            Sitenéma
+        </p>
+    </header>
+
+<section class="container-fluid">
+    <nav>
+        <p><b><a href="../../index.html" title="Lien vers la page d'acceuil">Page d'acceuil</a></b></p>
+        <p>
+            Menu Ciné :
+            <ul class="ls_pages">
+                <li><a href="index_cine.html" title="Lien vers la page des cinés autour d'Aix">Les cinémas autour d'Aix</a></li>
+                <li><a href="index_filmsortie.html" title="Lien vers la page des films sortis">Les sorties récentes</a></li>
+                <li><a href="index_filmpassortie.html" title="Lien vers la page des films prochainement">Les prochaines sorties</a></li>
+            </ul>
+        </p>
+        <p>
+            Bric-à-Brac :
+            <ul class="ls_pages">
+                <li>
+                    The Legend of Zelda : Breath of the Wild
+                    <ul>
+                        <li><a href="index_botw-CM.html" title="Lien vers la page des monstres de Breath Of The Wild">BOTW : Les monstres communs</a></li>
+                        <li><a href="index_botw-B.html" title="Lien vers la page BOTW de ">BOTW : Les Boss</a></li>
+                    </ul>
+                </li>
+                <li></li>
+            </ul>
+        </p>
+    </nav>    
+    
+    <section class="reste">
+        
+    </section>
+</section>
+
+<head>
+    <title>  </title>
+    <meta charset="utf-8"/>
+    <!-- <link rel="stylesheet" href="../../css/style.css"> -->
+</head>
+
+<img src="" alt="">
+
+<a href="" title="Lien_description">Nom</a>
+
