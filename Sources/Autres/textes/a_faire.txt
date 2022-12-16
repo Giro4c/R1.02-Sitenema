@@ -11,7 +11,7 @@ CHECK           base.css en 2 fichiers css : base_structure_squelette.css et bas
 
                 Faires les media queries pour telephone surtout
 
-                Mettre logo dans header (balises nav, etc.txt)
+CHECK           Mettre logo dans header (balises nav, etc.txt)
                     Ajouter les header sur toutes les pages
 
 CHECK           Créer logo pour symbole titre onglet

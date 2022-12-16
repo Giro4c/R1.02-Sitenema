@@ -1,6 +1,6 @@
 /* Pour body */
 body {
-    background-color: #F2E2D2;
+    background-color: black;
     margin: 0;
     font-family: 'Comic Sans MS';
 }
@@ -65,10 +65,10 @@ footer > * {
 
 
 /* Structure flexbox de la section contenant nav et les textes de la page --> [nav 30%][section 70%] */
-.container-fluid , .list_flex-et-fig{
+.container-fluid {
     display:flex;
     flex-flow: row nowrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: stretch;
 }
 
