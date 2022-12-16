@@ -1,4 +1,4 @@
-@media (max-width: 700px) {
+@media (max-width: 701px) {
     .container-fluid {
         flex-flow: column nowrap;
     }
@@ -8,6 +8,7 @@
     
     nav {
         max-width: 700px;
+        font-size: smaller;
     }
     .container-fluid > section {
         max-width: 100%;
