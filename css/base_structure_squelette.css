@@ -1,0 +1,82 @@
+/* Pour body */
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Comic Sans MS';
+}
+
+/* Pour header */
+header {
+    color: black;
+    background-color: #97ccd8;
+    font-weight: bold;
+    height: 100px;
+    font-size: 75px;
+    margin: 0px;
+}
+    /*Flexbox header*/
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+header > p {
+    flex: 1 100%;
+    margin: 0;
+    padding-left: 20px;
+}
+header figure, header figure > img {
+    width: 150px;
+    height: 100px;
+}
+
+header > figure {
+    flex: 1 150px;
+    margin: 0;
+}
+
+/* Pour nav / menu */
+nav {
+    margin: 5px;
+    background-color: #BCC1BA;
+}
+nav p {
+    margin: 5px;
+}
+
+/* Pour footer */
+footer {
+    display:flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+    align-items: baseline;        
+    background-color: #97ccd8;
+    height: 30px;
+    padding: 5px 0;
+}
+footer > * {
+    flex: 1 100%;
+    margin: 0;
+    padding: 5px;
+}
+
+
+
+/* Structure flexbox de la section contenant nav et les textes de la page --> [nav 30%][section 70%] */
+.container-fluid {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.container-fluid > section {
+    padding: 10px;
+    flex: 1 70%;
+}
+.container-fluid > nav {
+    padding: 0px 10px 10px 10px;
+    flex: 1 30%;
+}

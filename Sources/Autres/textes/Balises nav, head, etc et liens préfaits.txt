@@ -9,7 +9,7 @@ Palette de couleur:
 <body>
     <header class="container">
         <figure>
-            <img src="Sources/Autres/Images/botw/logo site.png" alt=""> ou <img src="../Autres/Images/botw/logo site.png" alt="">
+            <img src="../Autres/Images/logo_site.png" alt="">
         </figure>
         <p>
             Sitenéma
@@ -48,10 +48,22 @@ Palette de couleur:
 </section>
 
 <head>
+    <title>Page d'acceuil</title>
+    <meta charset="utf-8"/>
+    <link rel="icon" type="image/png" href="../Autres/Images/favicon_sitenema.png">
+    <link rel="stylesheet" href="css/base_structure_squelette.css">
+    <link rel="stylesheet" href="css/base_structure_interne.css">
+</head>
+
+<head>
     <title>  </title>
     <meta charset="utf-8"/>
-    <!-- <link rel="stylesheet" href="../../css/style.css"> -->
+    <link rel="icon" type="image/png" href="../Autres/Images/favicon_sitenema.png">
+    <link rel="stylesheet" href="css/base_structure_squelette.css">
+    <link rel="stylesheet" href="css/base_structure_interne.css">
 </head>
+
+
 
 <img src="" alt="">
 
