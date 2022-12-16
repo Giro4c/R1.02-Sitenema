@@ -1,3 +1,7 @@
+section ul {
+    font-size: smaller;
+}
+
 /*Pour h1 */
 h1 {
     font-size: 50px;
@@ -37,15 +41,24 @@ h1 {
 }
 /* Fin flexbox */
 
+table {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #46B1C9;
+    text-align: center;
+}
 
 /* Flexbox pour contenir tous les pistes audios. */
 .audio-container {
     display:flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
 }
 .audio-container > * {
     flex: 1 30%;
+}
+.audio-container audio {
+    max-width: 250px;
 }
 /* Fin flexbox */
