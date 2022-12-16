@@ -50,7 +50,7 @@ table {
 
 /* Flexbox pour contenir tous les pistes audios. */
 .audio-container {
-    max-width: 700px;
+    width: inherit;
     display:flex;
     flex-flow: row nowrap;
     justify-content: center;
