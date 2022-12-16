@@ -46,6 +46,7 @@ nav {
     margin: 5px;
     background-color: #BCC1BA;
     max-width: 200px;
+    min-width: 50px;
 }
 nav p {
     margin: 5px;
@@ -81,6 +82,7 @@ footer > * {
 .container-fluid > section {
     background-color: #F2E2D2;
     max-width: 800px;
+    min-width: 200px;
     padding: 10px;
     flex: 1 70%;
 }
