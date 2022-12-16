@@ -23,24 +23,29 @@ header {
 }
 
 header > p {
-    flex: 1 100%;
+    flex: 1 80%;
     margin: 0;
     padding-left: 20px;
 }
-header figure, header figure > img {
-    width: 150px;
-    height: 100px;
-}
 
 header > figure {
-    flex: 1 150px;
+    flex: 1 20%;
+    max-width: 180px;
+    height: inherit;
     margin: 0;
+}
+
+header figure > img {
+    max-width: inherit;
+    width:100%;
+    height: inherit;
 }
 
 /* Pour nav / menu */
 nav {
     margin: 5px;
     background-color: #BCC1BA;
+    max-width: 200px;
 }
 nav p {
     margin: 5px;
@@ -70,9 +75,12 @@ footer > * {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: stretch;
+    width: 100%;
 }
 
 .container-fluid > section {
+    background-color: #F2E2D2;
+    max-width: 800px;
     padding: 10px;
     flex: 1 70%;
 }

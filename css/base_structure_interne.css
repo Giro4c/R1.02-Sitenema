@@ -37,9 +37,16 @@ h1 {
 }
 /* Fin flexbox */
 
+table {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #46B1C9;
+    text-align: center;
+}
 
 /* Flexbox pour contenir tous les pistes audios. */
 .audio-container {
+    max-width: 700px;
     display:flex;
     flex-flow: row nowrap;
     justify-content: center;

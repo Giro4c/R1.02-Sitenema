@@ -6,7 +6,6 @@
 
     Determiner les max width de :
         - Nav
-        - Section .container-fluid
         - Section .container-fluid > Section
         - 
     
@@ -32,3 +31,6 @@ nav {
     max-width: 800px;
 }
 
+.audio-container {
+    max-width: 700px;
+}
