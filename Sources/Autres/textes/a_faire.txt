@@ -7,7 +7,7 @@ CHECK           Surprise de la page d'accueil
 
                 Ajouter la structure flexbox sur pages cinés de gavril
 
-                 base.css en 2 fichiers css : base_structure_squelette.css et base_structure_interne.css
+                base.css en 2 fichiers css : base_structure_squelette.css et base_structure_interne.css
 
                 Faires les media queries pour telephone surtout
 
