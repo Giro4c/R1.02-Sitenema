@@ -1,0 +1,17 @@
+.container-fluid {
+    flex-flow: column nowrap;
+}
+ body {
+    font-size: smaller;
+ }
+
+nav {
+    max-width: 100px;
+}
+.container-fluid > section {
+    max-width: 100%;
+}
+
+ table {
+    font-size: larger;
+ }
