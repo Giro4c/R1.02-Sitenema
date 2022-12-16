@@ -7,7 +7,7 @@ CHECK           Surprise de la page d'accueil
 
                 Ajouter la structure flexbox sur pages cinés de gavril
 
-                base.css en 2 fichiers css : base_structure_squelette.css et base_structure_interne.css
+CHECK           base.css en 2 fichiers css : base_structure_squelette.css et base_structure_interne.css
 
                 Faires les media queries pour telephone surtout
 
@@ -15,8 +15,9 @@ CHECK           Surprise de la page d'accueil
                     Ajouter les header sur toutes les pages
 
                 Créer logo pour symbole titre onglet
+                    L'ajouter 
 
-                Changer style de police
+CHECK           Changer style de police
 
                 Mettre des commentaires dans les fichiers html et css
 
