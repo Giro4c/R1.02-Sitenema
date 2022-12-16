@@ -9,7 +9,7 @@ Palette de couleur:
 <body>
     <header class="container">
         <figure>
-            <img src="Sources/Autres/Images/botw/logo site.png" alt=""> ou <img src="../Autres/Images/botw/logo site.png" alt="">
+            <img src="../Autres/Images/logo_site.png" alt="">
         </figure>
         <p>
             Sitenéma
