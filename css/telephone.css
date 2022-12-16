@@ -1,23 +1,21 @@
-@media (max-width: 2000px) {
-    .container-fluid {
-        flex-flow: column nowrap;
-    }
-     body {
-        font-size: smaller;
-     }
-    
-    nav {
-        max-width: 700px;
-        font-size: smaller;
-    }
-    .container-fluid > section {
-        max-width: 100%;
-    }
-    
-    table {
-        font-size: larger;
-    }
-    .audio-container {
-        flex-flow: row wrap;
-    } 
+.container-fluid {
+    flex-flow: column nowrap;
 }
+    body {
+    font-size: smaller;
+    }
+
+nav {
+    max-width: 100%;
+    font-size: smaller;
+}
+.container-fluid > section {
+    max-width: 100%;
+}
+
+table {
+    font-size: larger;
+}
+.audio-container {
+    flex-flow: row wrap;
+} 
