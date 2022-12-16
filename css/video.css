@@ -1,16 +1,39 @@
+.scroll{
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
 
 section iframe{
     width: 200px;
     height: 100px;
-    margin: 2%;
+    margin: 0;
+    padding: 5px;
 }
 
 section img{
+    margin: 0;
+    padding: 5px;
     width: 90px;
     height: 140px;
 }
 
 section > ul{
-    padding: 10px;
-    margin-right: 650px;
+    margin: 0;
+    padding: 5px;
+
+}
+
+section p{
+    margin: 0;
+    margin-right: 500px;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    background-color: #BCC1BA;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    font-family:'Courier New';
+    padding: 5px;
 }
