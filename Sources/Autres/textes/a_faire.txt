@@ -1,23 +1,23 @@
-Surprise de la page d'accueil
+CHECK           Surprise de la page d'accueil
 
-changer les noms des index + dossiers
-    changer les paths
+                changer les noms des index + dossiers
+                    changer les paths
 
-Ajouter les nav, footer sur toutes les pages
+                Ajouter les nav, footer sur toutes les pages
 
-Ajouter la structure flexbox sur pages cinés de gavril
+                Ajouter la structure flexbox sur pages cinés de gavril
 
-Séparer base.css en 2 fichiers css : base_structure_squelette.css et base_structure_interne.css
+                 base.css en 2 fichiers css : base_structure_squelette.css et base_structure_interne.css
 
-Faires les media queries pour telephone surtout
+                Faires les media queries pour telephone surtout
 
-Mettre logo dans header
-    Ajouter les header sur toutes les pages
+                Mettre logo dans header (balises nav, etc.txt)
+                    Ajouter les header sur toutes les pages
 
-Créer logo pour symbole titre onglet
+                Créer logo pour symbole titre onglet
 
-Changer style de police
+                Changer style de police
 
-Mettre des commentaires dans les fichiers html et css
+                Mettre des commentaires dans les fichiers html et css
 
-Mettre des max width et height sur la flexbox principale, les images et autres
+                Mettre des max width et height sur la flexbox principale, les images et autres
