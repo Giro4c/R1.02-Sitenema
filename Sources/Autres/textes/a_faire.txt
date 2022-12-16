@@ -16,3 +16,8 @@ Mettre logo dans header
 
 Créer logo pour symbole titre onglet
 
+Changer style de police
+
+Mettre des commentaires dans les fichiers html et css
+
+Mettre des max width et height sur la flexbox principale, les images et autres
