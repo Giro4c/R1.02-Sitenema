@@ -1,4 +1,4 @@
-@media /*only screen and*/ (max-width: 650px) /*and (max-width: 800px)*/ {
+@media (max-width: 700px) {
     .container-fluid {
         flex-flow: column nowrap;
     }
@@ -14,7 +14,10 @@
         max-width: 100%;
     }
     
-     table {
+    table {
         font-size: larger;
-     }    
+    }
+    .audio-container {
+        flex-wrap: wrap;
+    } 
 }
