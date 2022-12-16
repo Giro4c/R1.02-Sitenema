@@ -7,7 +7,7 @@ Palette de couleur:
 #97ccd8 Autre bleu clair pale
 
 <body>
-    <header class="container">
+    <header id="haut_page">
         <figure>
             <img src="../Autres/Images/logo_site.png" alt="">
         </figure>
@@ -58,9 +58,12 @@ Palette de couleur:
 <head>
     <title>  </title>
     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="../Autres/Images/favicon_sitenema.png">
-    <link rel="stylesheet" href="../../../css/base_structure_squelette.css">
-    <link rel="stylesheet" href="css/base_structure_interne.css">
+    <link rel="stylesheet" href="../../css/base_structure_squelette.css">
+    <link rel="stylesheet" href="../../css/base_structure_interne.css">
+    <link rel="stylesheet" media="(max-width: 700px), (orientation: portrait)" href="../../css/telephone.css">
+
 </head>
 
 
