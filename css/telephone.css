@@ -1,4 +1,4 @@
-@media /*only screen and*/ (orientaion: portrait) /*and (max-width: 800px)*/ {
+@media /*only screen and*/ (max-width: 2000px) /*and (max-width: 800px)*/ {
     .container-fluid {
         flex-flow: column nowrap;
     }
@@ -8,6 +8,7 @@
     
     nav {
         max-width: 100%;
+        background-color: red;
     }
     .container-fluid > section {
         max-width: 100%;
