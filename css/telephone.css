@@ -7,6 +7,7 @@
 
 nav {
     max-width: 100px;
+    background-color: red;
 }
 .container-fluid > section {
     max-width: 100%;
