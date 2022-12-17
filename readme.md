@@ -10,13 +10,13 @@ Les fichiers présents dans le dossier sources/assets/textes-brouillons sont des
 Pour les audios et images d'affiches, les majuscules ont été laissées.  
 
 ----  
-## Notre binôme ##  
+## Notre binôme  
 GIRODENGO Camille  
 BOSSO Gavril  
 
 ----  
 
-## Consignes :##  
+## Consignes : 
   
 Au minimum tous les points suivants doivent être respectés :  
 − le thème du site Web portera sur le sujet de votre choix ;  

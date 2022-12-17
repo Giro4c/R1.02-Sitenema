@@ -49,7 +49,7 @@ textarea {
     flex: 1 100%;
 }
 .list_flex-et-fig figure {
-    margin: 0;
+    margin: 5px;
 }
 /* Fin flexbox */
 
