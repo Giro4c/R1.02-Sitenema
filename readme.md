@@ -1,12 +1,22 @@
 # Répertoire sur site à créer sur un sujet choisi  
 Date limite de rendu : 18 décembre 23h59  
 
-Thème : 
-Aaaa  
+Thème : Cinéma  
 
-Idee pour formulaire : Mettre un lien dans page principale, "Pour nous aider à améliorer le site" avec lien vers formulaire
+----  
 
-Consigne :  
+**Attention :**  
+Les fichiers présents dans le dossier sources/assets/textes-brouillons sont des fichiers brouillons qui n'ont servi qu'à placer nos informations et autres, et n'ont donc pas été renommés car ils ne sont pas utilisés dans des liens ou autres.  
+Pour les audios et images d'affiches, les majuscules ont été laissées.  
+
+----  
+## Notre binôme ##  
+GIRODENGO Camille  
+BOSSO Gavril  
+
+----  
+
+## Consignes :##  
   
 Au minimum tous les points suivants doivent être respectés :  
 − le thème du site Web portera sur le sujet de votre choix ;  
