@@ -48,6 +48,9 @@ textarea {
 .list_flex-et-fig > * {
     flex: 1 100%;
 }
+.list_flex-et-fig figure {
+    margin: 0;
+}
 /* Fin flexbox */
 
 table {
