@@ -1,9 +1,9 @@
 CHECK           Surprise de la page d'accueil
 
-                changer les noms des index + dossiers
+CHECK           changer les noms des index + dossiers
                     changer les paths
 
-                Ajouter les nav, footer sur toutes les pages
+CHECK           Ajouter les nav, footer sur toutes les pages
 
 CHECK           Ajouter la structure flexbox sur pages cinés de gavril
 
@@ -12,7 +12,7 @@ CHECK           base.css en 2 fichiers css : base_structure_squelette.css et bas
 CHECK           Faires les media queries pour telephone surtout
 
 CHECK           Mettre logo dans header (balises nav, etc.txt)
-                    Ajouter les header sur toutes les pages
+CHECK               Ajouter les header sur toutes les pages
 
 CHECK           Créer logo pour symbole titre onglet
 CHECK               L'ajouter sur les onglets
