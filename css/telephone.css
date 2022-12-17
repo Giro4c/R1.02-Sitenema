@@ -1,6 +1,12 @@
+/* S'applique aux écrans de moins de 700 pixels ou en mode portrait */
+
 .container-fluid {
     flex-flow: column nowrap;
 }
+.container-fluid > section {
+    max-width: 100%;
+}
+
 body {
     font-size: smaller;
 }
@@ -11,13 +17,29 @@ nav {
     max-width: 100%;
     font-size: smaller;
 }
-.container-fluid > section {
-    max-width: 100%;
-}
 
+/* Elements présents dans les pages botw */
 table {
     font-size: larger;
 }
 .audio-container {
     flex-flow: row wrap;
+}
+
+/* Elements presents dans les pages films */
+.info-film > .affiche {
+    flex: 1 calc(40% - 10px);
+}
+.info-film > ul {
+    flex: 1 40%;
+}
+.info-film > .description {
+    flex: 1 100%;
+}
+.bande_annonce iframe {
+    min-height: none;
+    min-width: none;
+
+    max-height: 250px;
+    max-width: 300px;
 }
