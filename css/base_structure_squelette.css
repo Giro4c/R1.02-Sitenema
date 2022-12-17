@@ -57,7 +57,7 @@ footer {
     display:flex;
     flex-flow: row-reverse nowrap;
     justify-content: space-between;
-    align-items: baseline;        
+    align-items: baseline;
     background-color: #97ccd8;
     height: 30px;
     padding: 5px 0;

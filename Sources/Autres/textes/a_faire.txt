@@ -5,7 +5,7 @@ CHECK           Surprise de la page d'accueil
 
                 Ajouter les nav, footer sur toutes les pages
 
-                Ajouter la structure flexbox sur pages cinés de gavril
+CHECK           Ajouter la structure flexbox sur pages cinés de gavril
 
 CHECK           base.css en 2 fichiers css : base_structure_squelette.css et base_structure_interne.css
 

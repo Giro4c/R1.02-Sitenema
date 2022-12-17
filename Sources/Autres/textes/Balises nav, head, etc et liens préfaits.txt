@@ -56,7 +56,9 @@ Palette de couleur:
 </head>
 
     <footer>
-        <p class="text-right">Sitenéma</p>
+        <p class="text-right">
+            <a href="./index.html" title="Retour à la page d'accueil"><img src="../Autres/Images/favicon_sitenema.png" alt="Image de retour vers la page d'accueil"></a> Sitenéma
+        </p>
         <p><a href="assets/index/index_formulaire.html" title="Lien vers le formulaire">Donnez-nous votre avis !</a></p>
     </footer>
 
