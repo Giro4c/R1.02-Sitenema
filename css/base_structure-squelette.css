@@ -90,6 +90,7 @@ footer img { /* Pour les images dans footer */
     max-width: 800px;
     min-width: 200px;
     padding: 10px;
+    margin: 5px 5px 5px 0;
     flex: 1 70%;
 }
 .container-fluid > nav {

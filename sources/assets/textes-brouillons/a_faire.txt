@@ -1,7 +1,7 @@
 CHECK           Surprise de la page d'accueil
 
 CHECK           changer les noms des index + dossiers
-                    changer les paths
+CHECK               changer les paths
 
 CHECK           Ajouter les nav, footer sur toutes les pages
 
