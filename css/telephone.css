@@ -1,7 +1,7 @@
 /* Ce fichier css définie les modifications des règles css de base pour correspondre à des écrans plus petits du type téléphone par exemple. */
 /* S'applique aux écrans de moins de 700 pixels ou en mode portrait */
 
-/* Elements communs à toutes les pages */
+/* Elements communs à toutes les pages ou sur base_structure */
 .container-fluid {
     flex-flow: column nowrap;
 }
@@ -17,6 +17,10 @@ header {
 nav {
     max-width: 100%;
     font-size: smaller;
+}
+
+.list_flex-et-fig > *{
+    flex: 1 30%;
 }
 
 

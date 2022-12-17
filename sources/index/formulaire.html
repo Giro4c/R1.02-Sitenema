@@ -45,7 +45,7 @@
                 
         <section>
             <p>
-                Voici un petit formulaire anonyme que vous pouvez remplir pour nous donner votre avis sur le site et nous aider à l'améliorer. Vous pouvez aussi nous proposer que créer de nouvelles pages ou nous donner des conseils sur l'esthétique du site.<br>
+                Voici un petit formulaire que vous pouvez remplir pour nous donner votre avis sur le site et nous aider à l'améliorer. Vous pouvez aussi nous proposer que créer de nouvelles pages ou nous donner des conseils sur l'esthétique du site.<br>
                 Toute critique est la bienvenue :D
             </p>
             <form id="form" action="mailto:camille.girodengo@etu.univ-amu.fr?content-type=text/html&amp;subject=Site%20Web%20Sitenema%20Formulaire" method="post" enctype="text/plain">
@@ -54,7 +54,9 @@
                     <input id="sexeFemme" type="radio" name="sexe" value="femme"><label for="sexeFemme">Femme</label>
                     <input id="sexeAnon" type="radio" name="sexe" value="anonyme/non_spec"><label for="sexeAnon">Non Spécifié</label><br>
                     <label for="impression">Vos impressions</label><br><textarea name="impression" rows="5" cols="50">Dites nous ce que vous pensez du site</textarea><br>
-                    <label for="checksurprise">Avez-vous cliqué sur la surprise de la page d'accueil ? </label><input id="checksurprise" type="checkbox"><br>
+                    Avez-vous cliqué sur la surprise de la page d'accueil ?   
+                    <label for="oui_surprise">Oui</label><input id="oui_surprise" type="radio" name="checksurprise" value="oui">
+                    <label for="non_surprise">Non</label><input id="non_surprise" type="radio" name="checksurprise" value="non"><br>
                     <label for="conseil">Vos conseils</label><br><textarea name="conseil" rows="5" cols="50%">Des conseils ou des améliorations ?</textarea><br>
                     <input type="submit" value="Envoyer">
                 </p>
