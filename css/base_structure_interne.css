@@ -28,6 +28,11 @@ h1 {
     text-align: center;
 }
 
+/* Pour les zones de texte */
+textarea {
+    width: 75%;
+}
+
 
 /* La flexbox pour une liste avec figure */
 .list_flex-et-fig {

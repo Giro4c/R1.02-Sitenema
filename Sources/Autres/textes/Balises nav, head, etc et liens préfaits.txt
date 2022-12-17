@@ -37,7 +37,6 @@ Palette de couleur:
                         <li><a href="index_botw-B.html" title="Lien vers la page BOTW de ">BOTW : Les Boss</a></li>
                     </ul>
                 </li>
-                <li></li>
             </ul>
         </p>
     </nav>    
@@ -66,6 +65,10 @@ Palette de couleur:
 
 </head>
 
+<footer>
+    <p class="text-right">Sitenéma</p>
+    <p><a href="Sources/Index/index_formulaire.html" title="Lien vers le formulaire">Donnez-nous votre avis !</a></p>
+</footer>
 
 
 <img src="" alt="">

@@ -4,16 +4,21 @@
 <head>
     <title>Formulaire</title>
     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../Autres/Images/favicon_sitenema.png">
     <link rel="stylesheet" href="../../css/base_structure_squelette.css">
     <link rel="stylesheet" href="../../css/base_structure_interne.css">
-    <link rel="stylesheet" href="../../css/image.css">
-
+    <link rel="stylesheet" media="(max-width: 700px), (orientation: portrait)" href="../../css/telephone.css">
 </head>
 
 <body>
     <header id="haut_page">
-        <!-- <img src="" alt=""> -->
-        <p>Sitenéma</p>
+        <figure>
+            <img src="../Autres/Images/logo_site.png" alt="">
+        </figure>
+        <p>
+            Sitenéma
+        </p>
     </header>
 
     <section class="container-fluid">
@@ -50,14 +55,17 @@
                     <input id="sexeAnon" type="radio" name="sexe" value="anonyme/non_spec"><label for="sexeAnon">Non Spécifié</label><br>
                     <label for="impression">Vos impressions</label><br><textarea name="impression" rows="5" cols="50">Dites nous ce que vous pensez du site</textarea><br>
                     <label for="checksurprise">Avez-vous cliqué sur la surprise de la page d'accueil ? </label><input id="checksurprise" type="checkbox"><br>
-                    <label for="conseil">Vos conseils</label><br><textarea name="conseil" rows="5" cols="50">Des conseils ou des améliorations ?</textarea><br>
+                    <label for="conseil">Vos conseils</label><br><textarea name="conseil" rows="5" cols="50%">Des conseils ou des améliorations ?</textarea><br>
                     <input type="submit" value="Envoyer">
                 </p>
             </form>
         </section>
+
     </section>
+
     <footer>
         <p class="text-right">Sitenéma</p>
         <p><a href="Sources/Index/index_formulaire.html" title="Lien vers le formulaire">Donnez-nous votre avis !</a></p>
     </footer>
+
 </body>
