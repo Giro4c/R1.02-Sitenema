@@ -1,37 +1,58 @@
-.container-fluid > section > section iframe{ /*Video (bande annonce)*/
-    width: 100%;
-    height: 100px;
-    padding: 5px;
+/* La flexbox pour une liste avec figure */
+.info-film {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.container-fluid > section > section img{ /*Affiche film*/
-    padding: 5px;
-    width: 90%;
-    height: 100px;
-}
-
-.container-fluid > section > section > ul{ /*Nom, Sortie, Durée...*/
+.info-film * {
     margin: 0;
-    padding: 5px;
-    width: 10%;
-    height: 110px;
-    background-color: #BCC1BA;
-    overflow: hidden;
-    overflow-y: scroll;
-
+    padding: 0;
 }
 
-.container-fluid > section > section p{ /*Description*/
+.info-film > figure.affiche {
+    flex: 1 calc(20% - 10px) ;
+    margin: 5px;
+    min-height: 100px;
+    max-width: 150px;
+}
+.affiche > img { /*Affiche du film*/
+    height: inherit;
     width: 100%;
-    height: 110px;
-    margin: 0px;
+    max-height: inherit;
+}
+
+.info-film > ul { /*Nom, Sortie, Durée...*/
+    flex: 1 20% ;
     padding: 5px;
+}
+.info-film > .description { /*Description*/
+    flex: 1 50%;
     text-align: center;
     background-color: #BCC1BA;
     font-family:'Courier New';
-    overflow: hidden;
-    overflow-y: scroll;
+    padding: 5px;
 }
+.info-film > figure.bande_annonce {
+    flex: 1 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.bande_annonce iframe { /*Video (bande annonce)*/
+    width: 100%;
+    height: 100%;
+
+    min-height: 200px;
+    min-width: 300px;
+
+    max-height: 400px;
+    max-width: 400px;
+}
+
+/* Fin flexbox */
+
 
 footer p{ /*Sources*/
     height: 10px;
