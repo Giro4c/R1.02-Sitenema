@@ -32,11 +32,11 @@
     padding: 5px;
 }
 
-.sources{
+footer p{
     text-align: center;
     padding: 0;
     /*margin-bottom: 70px;
-    top: 100px;
+    top: 150px;
     margin-left: 100px;*/ 
     margin: 0;
 }
