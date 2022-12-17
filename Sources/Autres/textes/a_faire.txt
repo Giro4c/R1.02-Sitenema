@@ -9,7 +9,7 @@ CHECK           Ajouter la structure flexbox sur pages cinés de gavril
 
 CHECK           base.css en 2 fichiers css : base_structure_squelette.css et base_structure_interne.css
 
-                Faires les media queries pour telephone surtout
+CHECK           Faires les media queries pour telephone surtout
 
 CHECK           Mettre logo dans header (balises nav, etc.txt)
                     Ajouter les header sur toutes les pages
@@ -19,6 +19,6 @@ CHECK               L'ajouter sur les onglets
 
 CHECK           Changer style de police
 
-                Mettre des commentaires dans les fichiers html et css
+CHECK           Mettre des commentaires dans les fichiers html et css
 
-                Mettre des max width et height sur la flexbox principale, les images et autres
+CHECK           Mettre des max width et height sur la flexbox principale, les images et autres

@@ -4,10 +4,13 @@
 <head>
     <title>Page d'acceuil</title>
     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ajout du favicon -->
     <link rel="icon" type="image/png" href="Sources/Autres/Images/favicon_sitenema.png">
+    <!-- Ajout des fiches de style nécessaires -->
     <link rel="stylesheet" href="css/base_structure_squelette.css">
     <link rel="stylesheet" href="css/base_structure_interne.css">
-
+    <link rel="stylesheet" media="(max-width: 700px), (orientation: portrait)" href="../../css/telephone.css">
 </head>
 
 <body>
@@ -21,50 +24,58 @@
     </header>
 
    <section class="container-fluid">
-    <nav class="menu">
-        <p><b>Menu :</b></p>
-        <ul class="ls_pages">
-            <li><a href="index.html" title="Lien vers la page d'acceuil">Page d'acceuil</a></li>
-            <li><a href="Sources/Index/index_cine.html" title="Lien vers la page des cinés autour d'Aix">Les cinémas autour d'Aix</a></li>
-            <li><a href="Sources/Index/index_filmsortie.html" title="Lien vers la page des films sortis">Les sorties récentes</a></li>
-            <li><a href="Sources/Index/index_filmpassortie.html" title="Lien vers la page des films prochainement">Les prochaines sorties</a></li>
-        </ul>
-    </nav>    
-    
-    <section class="reste">
-    <h1> Bienvenue sur Sitenéma !</h1>
-    <p>
-        Vous êtes actuellement sur la page d'accueil du site.<br>
-        Sitenéma est un site qui référence les principaux cinémas autour d'Aix-en-Provence et les films populaires, qu'ils soient déjà sortis où soient attendus prochainement.
-    </p>
-    <h2>Menu du Cinéma</h2>
-    <p>
-        <ul>
-            <li><a href="index_cine.html" title="Lien vers la page des cinés autour d'Aix">Les cinémas autour d'Aix</a></li>
-            <li><a href="pagedesfilmssortis" title="Lien vers la page des films sortis">Les sorties récentes</a></li>
-            <li><a href="index_filmpassortie.html" title="Lien vers la page des films prochainement">Les prochaines sorties</a></li>
-        </ul>
-    </p>
-    <h2>Menu du Bric-à-Brac</h2>
-    <p>
-        <li>The Legend of Zelda : Breath of the Wild</li>
-            <ul>
-                <li><a href="Sources/Index/index_botw-CM.html" title="Lien vers la page des monstres de Breath Of The Wild">BOTW : Les monstres communs</a></li>
-                <li><a href="Sources/Index/index_botw-B.html" title="Lien vers la page BOTW de ">BOTW : Les Boss</a></li>
+        <nav>
+            <p><b><a href="../../index.html" title="Lien vers la page d'acceuil">Page d'acceuil</a></b></p>
+            <p>Menu Ciné :</p>
+            <ul class="ls_pages">
+                <li><a href="cinemas_aix.html" title="Lien vers la page des cinés autour d'Aix">Les cinémas autour d'Aix</a></li>
+                <li><a href="films_sortis.html" title="Lien vers la page des films sortis">Les sorties récentes</a></li>
+                <li><a href="films_pas_sortis.html" title="Lien vers la page des films prochainement en salle">Les prochaines sorties</a></li>
             </ul>
-        <li><a href="https://www.youtube.com/watch?v=eBGIQ7ZuuiU" title="Lien vers la surprise">Surprise :D</a></li>
-        <!-- La surprise n'est volontairement pas mise dans le menu de navigation car c'est un lien externe qui ne dirige vers aucune des pages du site. Pas de craintes à avoir.-->
-    </p>
-    </section>
-    </section>
+
+            <p>Bric-à-Brac :</p>
+            <ul class="ls_pages">
+                <li>The Legend of Zelda : Breath of the Wild</li>
+                <ul>
+                    <li><a href="botw-CM.html" title="Lien vers la page des monstres de Breath Of The Wild">BOTW : Les monstres communs</a></li>
+                    <li><a href="botw-B.html" title="Lien vers la page BOTW des boss de Breath of the Wild">BOTW : Les Boss</a></li>
+                </ul>
+            </ul>
+        </nav>
+        
+        <section>
+            <h1> Bienvenue sur Sitenéma !</h1>
+            <p>
+                Vous êtes actuellement sur la page d'accueil du site.<br>
+                Sitenéma est un site qui référence les principaux cinémas autour d'Aix-en-Provence et les films populaires, qu'ils soient déjà sortis où soient attendus prochainement. Le site contient aussi des pages sur des sujets sans aucun rapport avec la thématique.
+            </p>
+            <h2>Menu du Cinéma</h2>
+            <ul>
+                <li><a href="index_cine.html" title="Lien vers la page des cinés autour d'Aix">Les cinémas autour d'Aix</a></li>
+                <li><a href="pagedesfilmssortis" title="Lien vers la page des films sortis">Les sorties récentes</a></li>
+                <li><a href="index_filmpassortie.html" title="Lien vers la page des films prochainement">Les prochaines sorties</a></li>
+            </ul>
+            <h2>Menu du Bric-à-Brac</h2>
+            <ul>
+                <li>The Legend of Zelda : Breath of the Wild</li>
+                <ul>
+                    <li><a href="Sources/Index/index_botw-CM.html" title="Lien vers la page des monstres de Breath Of The Wild">BOTW : Les monstres communs</a></li>
+                    <li><a href="Sources/Index/index_botw-B.html" title="Lien vers la page BOTW de ">BOTW : Les Boss</a></li>
+                </ul>
+                <li><a href="https://www.youtube.com/watch?v=eBGIQ7ZuuiU" title="Lien vers la surprise">Surprise :D</a></li>
+                <!-- La surprise n'est volontairement pas mise dans le menu de navigation car c'est un lien externe qui ne dirige vers aucune des pages du site. Pas de craintes à avoir. -->
+            </ul>
+
+        </section> <!-- Fin de la section voisine de nav -->
+
+    </section> <!-- Fin de la section container-fluid -->
 
     <footer>
         <p class="text-right">
-            <a href="./index.html" title="Retour à la page d'accueil"><img href="Sources/Autres/Images/favicon_sitenema.png" alt=""></a> Sitenéma
+            <a href="./index.html" title="Retour à la page d'accueil"><img src="Sources/Autres/Images/favicon_sitenema.png" alt=""></a> Sitenéma
         </p>
         <p><a href="Sources/Index/index_formulaire.html" title="Lien vers le formulaire">Donnez-nous votre avis !</a></p>
     </footer>
 
 </body>
-
 </html>

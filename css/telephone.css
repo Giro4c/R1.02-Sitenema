@@ -1,12 +1,13 @@
+/* Ce fichier css définie les modifications des règles css de base pour correspondre à des écrans plus petits du type téléphone par exemple. */
 /* S'applique aux écrans de moins de 700 pixels ou en mode portrait */
 
+/* Elements communs à toutes les pages */
 .container-fluid {
     flex-flow: column nowrap;
 }
 .container-fluid > section {
     max-width: 100%;
 }
-
 body {
     font-size: smaller;
 }
@@ -18,13 +19,18 @@ nav {
     font-size: smaller;
 }
 
+
 /* Elements présents dans les pages botw */
 table {
     font-size: larger;
 }
+.presentation-mob {
+    flex-flow: column wrap;
+}
 .audio-container {
     flex-flow: row wrap;
 }
+
 
 /* Elements presents dans les pages films */
 .info-film > .affiche {

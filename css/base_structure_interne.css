@@ -1,6 +1,4 @@
-section ul {
-    font-size: smaller;
-}
+/* Le fichier css de base qui détermine l'apparence du contenu de la page à l'exeption des éléments essentiels à la structure "squelette" qui donne sa forme à la page. Cela inclue notamment les règles autour de header et footer par exemple. */
 
 /*Pour h1 */
 h1 {
@@ -14,6 +12,12 @@ h1 {
     margin: 0 0 10px 0;
     font-size: 10px;
     text-align: right;
+}
+
+
+/* Pour les tailles de police dans les listes */
+section ul {
+    font-size: smaller;
 }
 
 

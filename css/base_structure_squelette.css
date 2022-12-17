@@ -1,3 +1,5 @@
+/* Le fichier css de base qui détermine le squelette de la page, sa structure. Il est indispenssable à toute page du site. */
+
 /* Pour body */
 body {
     background-color: black;
@@ -14,6 +16,7 @@ header {
     font-size: 75px;
     margin: 0px;
 }
+
     /*Flexbox header*/
 header {
     display: flex;
@@ -27,21 +30,20 @@ header > p {
     margin: 0;
     padding-left: 20px;
 }
-
 header > figure {
     flex: 1 20%;
     max-width: 180px;
     height: inherit;
     margin: 0;
 }
-
 header figure > img {
     max-width: inherit;
     width:100%;
     height: inherit;
 }
 
-/* Pour nav / menu */
+
+/* Pour nav */
 nav {
     margin: 5px;
     background-color: #BCC1BA;
@@ -51,6 +53,7 @@ nav {
 nav p {
     margin: 5px;
 }
+
 
 /* Pour footer */
 footer {
@@ -67,7 +70,10 @@ footer > * {
     margin: 0;
     padding: 5px;
 }
-
+footer img { /* Pour les images dans footer */
+    width: 20px;
+    height: 20px;
+}
 
 
 /* Structure flexbox de la section contenant nav et les textes de la page --> [nav 30%][section 70%] */

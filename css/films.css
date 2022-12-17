@@ -31,7 +31,7 @@
     flex: 1 20% ;
     padding: 5px;
 }
-.info-film > .description { /*Description*/
+.info-film > .description { /*Description du film*/
     flex: 1 50%;
     text-align: center;
     background-color: #BCC1BA;
@@ -54,13 +54,9 @@
     max-height: 400px;
     max-width: 400px;
 }
-
 /* Fin flexbox */
 
 
-footer p{ /*Sources*/
-    text-align: center;
-}
 footer { /*footer dimension*/
     height: 40px;
 }

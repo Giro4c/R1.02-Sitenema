@@ -4,14 +4,11 @@ section img { /* Pour les images dans des sections */
     width: 150px;
 }
 
-footer img { /* Pour les images dans footer */
-    width: 20px;
-    height: 20px;
-}
 
 table img { /* Pour les images dans des tableaux */
     width: 75px;
 }
+
 
 iframe { /* Pour les videos */
     width: 300px;
